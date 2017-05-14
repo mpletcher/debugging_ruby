@@ -33,6 +33,7 @@ a_method("an argument")
 # TypeError 
 =begin
 In order to get a correct result, we have to use the same type of values:
+
 sum = 5 + 5
 puts sum
 =end
@@ -43,6 +44,7 @@ Upon adding a parameter to this a_method, we can properly pass value as argument
 def a_method (n)
   puts "This is a method"
 end
+
 a_method("an argument")
 =end 
 
@@ -67,12 +69,21 @@ d. NoMethodError: undefined method `reverse' for nil:NilClass
 e. ArgumentError: wrong number of arguments (given 1, expected 0)
 f. NameError: undefined local variable or method `favorite_color' for main:Object
 g. NameError: undefined local variable or method `num1' for main:Object
+
 ------------------------------
 2. Write a paragraph or two about flaws in your workflow and suggestions to develop a strategy for improving it:
 ------------------------------
+
 The initial learning process for IT students is time-consuming since students need to develop concepts of logical reasoning, control/data structures, syntax, and others. It takes a time to cement these concepts and even how to properly interpret basic errors in the code. Therefore, I believe these steps might be relevant for us:
+
 a. in order to avoid simple errors, try to elaborate a pseudocode before coding
 b. make your workflow readable, clearer, and more tangible
 c. try to use built-in methods or any other method previously created successfully
 d. test your code in multiple steps rather than just one final test
+
 =end
+
+
+
+
+
