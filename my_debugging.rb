@@ -59,11 +59,24 @@ end
 add(1,2)
 
 =begin
-Suggestions to develop a strategy for improving workflow:
-1. in order to avoid simple errors, try to elaborate a pseudocode before coding
-2. make your workflow readable, clearer, and more tangible
-3. try to use built-in methods or any other method previously created successfully
-4. test your code in multiple steps rather than just one final test
+------------------------------
+1. Identify areas of weakness in workflow
+------------------------------
+a. TypeError: nil can't be coerced into Fixnum
+b. TypeError: no implicit conversion of nil into String
+c. TypeError: no implicit conversion of Fixnum into String
+d. NoMethodError: undefined method `reverse' for nil:NilClass
+e. ArgumentError: wrong number of arguments (given 1, expected 0)
+f. NameError: undefined local variable or method `favorite_color' for main:Object
+g. NameError: undefined local variable or method `num1' for main:Object
+
+------------------------------
+2. Suggestions to develop a strategy for improving workflow:
+------------------------------
+a. in order to avoid simple errors, try to elaborate a pseudocode before coding
+b. make your workflow readable, clearer, and more tangible
+c. try to use built-in methods or any other method previously created successfully
+d. test your code in multiple steps rather than just one final test
 =end
 
 
