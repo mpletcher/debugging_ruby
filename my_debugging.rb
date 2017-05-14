@@ -47,3 +47,26 @@ end
 
 a_method("an argument")
 =end 
+
+#Log Your Data and Control Flow
+# Returns nil instead of intended integer because of debugging
+# p returns the value of whatever it printed
+def add(x,y)
+  sum = x + y
+  p sum
+end
+
+add(1,2)
+
+=begin
+Suggestions to develop a strategy for improving workflow:
+1. in order to avoid simple errors, try to elaborate a pseudocode before coding
+2. make your workflow readable, clearer, and more tangible
+3. try to use built-in methods or any other method previously created successfully
+4. test your code in multiple steps rather than just one final test
+=end
+
+
+
+
+
