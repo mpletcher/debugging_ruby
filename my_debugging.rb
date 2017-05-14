@@ -15,3 +15,18 @@ Email: pletcher.marcos@icloud.com
 #middle_name.reverse
 #middle_name = ""
 #middle_name.reverse
+
+# ArgumentError
+=begin
+	
+rescue Exception => e
+	
+end
+def a_method
+  puts "This is a method"
+end
+a_method("an argument")
+=end
+
+#puts favorite_color
+#num1 + num2
