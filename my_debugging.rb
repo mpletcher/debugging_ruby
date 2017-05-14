@@ -4,4 +4,5 @@ Author: Marcos Pletcher
 Email: pletcher.marcos@icloud.com
 =end
 
-1 + nil
+#1 + nil
+"hello" + nil
