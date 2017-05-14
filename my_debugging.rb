@@ -11,4 +11,7 @@ Email: pletcher.marcos@icloud.com
 #"5" + 5
 
 # NoMethodError
-middle_name = nil
+#middle_name = nil
+#middle_name.reverse
+#middle_name = ""
+#middle_name.reverse
