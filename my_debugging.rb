@@ -18,10 +18,6 @@ Email: pletcher.marcos@icloud.com
 
 # ArgumentError
 =begin
-	
-rescue Exception => e
-	
-end
 def a_method
   puts "This is a method"
 end
@@ -30,3 +26,24 @@ a_method("an argument")
 
 #puts favorite_color
 #num1 + num2
+
+# Test One Theory at a Time
+# Modify your code to test the theory
+
+# TypeError 
+=begin
+In order to get a correct result, we have to use the same type of values:
+
+sum = 5 + 5
+puts sum
+=end
+
+# ArgumentError
+=begin 
+Upon adding a parameter to this a_method, we can properly pass value as argument
+def a_method (n)
+  puts "This is a method"
+end
+
+a_method("an argument")
+=end 
