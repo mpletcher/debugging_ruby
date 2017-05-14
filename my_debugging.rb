@@ -71,12 +71,16 @@ f. NameError: undefined local variable or method `favorite_color' for main:Objec
 g. NameError: undefined local variable or method `num1' for main:Object
 
 ------------------------------
-2. Suggestions to develop a strategy for improving workflow:
+2. Write a paragraph or two about flaws in your workflow and suggestions to develop a strategy for improving it:
 ------------------------------
+
+The initial learning process for IT students is time-consuming since students need to develop concepts of logical reasoning, control/data structures, syntax, and others. It takes a time to cement these concepts and even how to properly interpret basic errors in the code. Therefore, I believe these steps might be relevant for us:
+
 a. in order to avoid simple errors, try to elaborate a pseudocode before coding
 b. make your workflow readable, clearer, and more tangible
 c. try to use built-in methods or any other method previously created successfully
 d. test your code in multiple steps rather than just one final test
+
 =end
 
 
